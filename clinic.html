@@ -5,35 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="clinic.css" rel="stylesheet" type="text/css">
-</head>
-<body>
     <style>
-        h2.bluecolor{
+        
+         span.wordcolor{
             color:blue;
         }
+        .main{
+            background-image: url(image.jpg.jpg);
+            min-height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 300px;
+            
+        }
+
+
+.card{
+background-color:blue;
+border-radius: 10px;
+padding:10px;
+margin-top: -50px;
+margin-left: 10px;
+margin-right: 10px;
+box-sizing: border-box;
+width: 23%;
+float: left;
+min-height: 280px;
+color:white;
+}
+ .mycontainer{
+    padding-left: 20%;
+    
+ }   
+      
     </style>
-    <div>
-        <h2 class="bluecolor"> We Provide <span class="wordcolor">Medical </span> Services <br>That you can Trust!</h2>
+</head>
+<body>
+
+    <div class="main">
+        <h2 class="bluecolor"> We Provide <span class="wordcolor"> Medical </span> Services <br>That you can <span class="wordcolor">Trust!</span></h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quo, nemo. Perferendis error amet exercitationem </p>
        
     </div>
-    <div>
+    <div class="mycontainer">
+    <div class="card">
         <h3>Lorem, ipsum.</h3>
         <h2>Emergency Cases</h2>
         <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Numquam quis perspiciatis<br> voluptate doloribus vel impedit!</p>
         <p>LEARN MORE --> </p>
     </div>
-    <div>
+    <div class="card" >
         <h3>Fusce Portittor</h3>
         <h2>Doctors timetable</h2>
         <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Numquam quis perspiciatis<br> voluptate doloribus vel impedit!</p>
         <p>LEARN MORE --> </p>
     </div>
-    <div>
+    <div class="card">
         <h3>Donec Luctus</h3>
         <h2>Opening Hours</h2>
         <p> Monday- Friday   8.00-20.00 <br> Saturday    9.00-18.00 <br> Monday-Thursday   9.00-15.00 </p>
         <p>LEARN MORE --> </p>
+    </div>
+</div>
         
     
 </body>
