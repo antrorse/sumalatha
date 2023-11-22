@@ -1,5 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+:root{
+  --primary-color: #28bf96;
+  --primary-color-dark: #209677;
+  --text-dark:#111827;
+  --text-light: #6b7280;
+  --white: #ffffff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
   
   background-color:whitesmoke;
   background-image: "image";
 }
+
+
+.btn{
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: var(--primary-color-dark);
+
+}
+
+
+
+
+nav{
+  padding:2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.nav_logo{
+  font-size: 1.5rem;
+  font-weight:600;
+  color:var(--primary-color);
+}
+.nav_links{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.pagedown{
+  color:#209677;
+  margin-left: 300px;
+  min-height: 400px;
+}
+
+
+
+
+
