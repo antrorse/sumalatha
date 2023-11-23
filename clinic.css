@@ -59,9 +59,12 @@ nav{
 }
 .pagedown{
   color:#209677;
-  margin-left: 300px;
+  
   min-height: 400px;
+  
+  padding: 10px;
 }
+
 
 
 
